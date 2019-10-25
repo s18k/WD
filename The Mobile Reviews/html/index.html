@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/style1.css">
+	<title>The Mobile Reviews</title>
+	<link rel="icon" type="image/x-icon" href="../images/titlelogo.png">
+</head>
+<body>
+<div id="name">
+	The Mobile Reviews
+	<img  src="../images/logo.png" >
+	<img src="../images/honestreviews.png" style="float: left;">
+</div>
+<div class="navbar">
+<div class="links">
+  <a class="active" href="#"><i class="home"></i> Home</a> 
+   
+  <a href="#footer"><i class="envelope"></i> Contact</a> 
+  <a href="http://techcrunch.com/mobile/" target="_blank">News</a>
+  <!-- <a href="#" title="Sign Up for notifications for latest mobile reviews!"><i class="user"></i> Sign Up</a> -->
+  <button title="Sign up for Notifications"   class="sign-up" onclick="openForm()" >Sign Up </button>
+  </div>
+</div>
+<div class="main">
+	<div class="categories">
+		<p style="background-color: orange;color: white;font-weight: bold;font-size: 20px; text-align: center; width: 120px; margin-left: 10px;">Categories</p>
+		<div class="brands">
+			<a href=""><p>Samsung</p></a>
+			<a href=""><p>Apple</p></a>
+			<a href=""><p>Huawei</p></a>
+			<a href=""><p>Nokia</p></a>
+			<a href=""><p>Sony</p></a>
+			<a href=""><p>LG</p></a>
+			<a href=""><p>HTC</p></a>
+			<a href=""><p>Motorolla</p></a>
+			<a href=""><p>Xiomi</p></a>
+			<a href=""><p>Google</p></a>
+			<a href=""><p>OnePlus</p></a>
+			<a href=""><p>Oppo</p></a>
+			<a href=""><p>Vivo</p></a>
+			<a href=""><p>Jio</p></a>
+		</div>
+
+	</div>
+
+	<div class="latestvideos" >
+		<p style="background-color: orange;color: white;font-weight: bold;font-size: 20px; text-align: center; width: 420px">Latest Videos</p>
+
+		<table >
+		<tr class="table">
+			
+			<iframe width="420" height="315"
+			src="https://www.youtube.com/embed/Shsi5LoWo6k">
+			</iframe>
+			<br>
+		</tr>
+		<tr class="table">
+			<iframe width="420" height="315" 
+		src="https://www.youtube.com/embed/Ztnh2DrEfSo">
+			</iframe> 	
+			<br>	
+		</tr>	
+		<tr class="table">
+			<iframe width="420" height="315" 
+		src="https://www.youtube.com/embed/3OhZjfwi1Rs">
+			</iframe> 	
+		<br>	
+		</tr>
+
+		<tr class="table">
+			<iframe width="420" height="315" 
+		src="https://www.youtube.com/embed/zsEcLVHnxUM">
+			</iframe> 	
+			<br>	
+		</tr>
+
+		<tr class="table">
+			<iframe width="420" height="315" 
+		src="https://www.youtube.com/embed/mfbSqTB74xM">
+			</iframe> 	
+			<br>	
+		</tr>
+		</table>
+
+	
+	</div>
+	<div class="topmobiles">
+		<div><p style="background-color: orange;color: white;font-weight: bold;font-size: 20px; text-align: center; width: 860px; margin-left: 200px;">Top Mobiles</p></div>	
+		<p>Trending Mobile #2</p>
+		<p>Trending Mobile #1</p>
+		<p>Trending Mobile #4</p>
+		<p>Trending Mobile #3</p>
+		<p>Trending Mobile #6</p>
+		<p>Trending Mobile #5</p>
+		<p>Trending Mobile #8</p>
+		<p>Trending Mobile #7</p>
+		
+	</div>	
+
+</div>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container" >
+    <h1>Sign Up</h1>
+
+    <!-- <label for="fname"><b>First Name</b></label> -->
+    <input type="text" placeholder="Enter First Name" name="fname" required>
+    <br><br>
+    <!-- <label for="lname"><b>Last Name</b></label> -->
+    <input type="text" placeholder="Enter Last Name" name="fname" >
+    <br><br>
+    <!-- <label for="email"><b>Email      </b></label> -->
+    <input type="email" placeholder="Enter Email" name="email" required>
+    <br><br>
+    <button type="submit" class="btn">Sign-Up</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+<footer id="footer">
+	<p >
+		<p style="font-size: 20px;font-weight: bold;">Contact us<br><p></p>
+		<a href="mailto:themobilereviews@gmail.com" style="color: white;">themobilereviews@gmail.com</a>
+		<a href=""><img src="../images/insta.jpg"></a>
+		<a href=""><img src="../images/twitter.png"></a>
+		<a href=""><img src="../images/facebook.png"></a>
+		
+	</p>
+</footer>
+
+</html>
